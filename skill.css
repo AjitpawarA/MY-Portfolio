@@ -1,0 +1,213 @@
+
+.skills{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+.skills .sub {
+    width: 90%;
+}
+.skills .sub h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.content-skills{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-skills div{
+    width: 200px;
+    height: 200px;
+    border: 0.5px solid black;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.content-skills div img{
+    width: 60%;
+    height: 60%;
+}
+
+.content-skills div p{
+    font-size: 23px;
+}
+
+
+
+.projets{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.p-sub{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.p-sub h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.project{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contactme{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.sub-c{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    justify-content: center;
+}
+.sub-c h1{
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.contact{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.connectme{
+    width: 45%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contactinfo{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    text-align: left;
+}
+.contactinfo p{
+    margin-bottom: 20px;
+}
+.contactform{
+    width: 45%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform div{
+    width: 80%;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+form button{
+    width: 200px;
+    padding: 10px;
+}
+form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 7px;
+}
+
+
+
+
+
+.button-87 {
+  margin-top: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f9532d;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
