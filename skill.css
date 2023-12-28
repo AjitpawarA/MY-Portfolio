@@ -1,179 +1,187 @@
-
-.skills{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-
-
+.skills {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 .skills .sub {
-    width: 90%;
+  width: 90%;
 }
-.skills .sub h1{
-    font-size: 35px;
-    margin-bottom: 20px;
+.skills .sub h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
 }
-.content-skills{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.content-skills div{
-    width: 200px;
-    height: 200px;
-    border: 0.5px solid black;
-    box-shadow: 1px 1px 10px black;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
+.content-skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.content-skills div img{
-    width: 60%;
-    height: 60%;
+.content-skills div {
+  width: 200px;
+  height: 200px;
+  border: 0.5px solid black;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
 }
 
-.content-skills div p{
-    font-size: 23px;
+.content-skills div img {
+  width: 60%;
+  height: 60%;
 }
 
-
-
-.projets{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+.content-skills div p {
+  font-size: 23px;
 }
 
-.p-sub{
-    width: 90%;
-    margin-bottom: 20px;
+.projets {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
-.p-sub h1{
-    font-size: 30px;
-    margin-bottom: 20px;
+.p-sub {
+  width: 90%;
+  margin-bottom: 20px;
 }
 
-.project{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+.p-sub h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.contactme{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
+.project {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.sub-c{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    
-    justify-content: center;
-}
-.sub-c h1{
-    font-size: 35px;
-    margin-top: 30px;
+.contactme {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.contact{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.sub-c {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 
+  justify-content: center;
 }
-.connectme{
-    width: 45%;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.contactinfo{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    text-align: left;
-}
-.contactinfo p{
-    margin-bottom: 20px;
-}
-.contactform{
-    width: 45%;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.sub-c h1 {
+  font-size: 35px;
+  margin-top: 30px;
 }
 
-.contactform div{
-    width: 80%;
+.contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.connectme {
+  width: 45%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-
-
-form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: space-around;
-    text-align: left;
+.contactinfo {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  text-align: left;
+}
+.contactinfo p {
+  margin-bottom: 20px;
+}
+.contactform {
+  width: 45%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-form button{
-    width: 200px;
-    padding: 10px;
-}
-form input{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid black;
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 7px;
+.contactform div {
+  width: 80%;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
 
+form button {
+  width: 200px;
+  padding: 10px;
+}
+form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 7px;
+}
 
+.aboutme {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aboutme div {
+  width: 80%;
+}
+.aboutme p {
+  font-size: 20px;
+}
 
+.aboutme div div {
+  width: 100%;
+}
+.aboutme div div button {
+  font-size: 25px;
+}
 
 .button-87 {
   margin-top: 20px;
@@ -188,7 +196,12 @@ form input{
   border: 0px;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px #f9532d;
-  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -205,9 +218,24 @@ form input{
   transform: scale(0.95);
 }
 
+footer {
+  width: 80%;
+  text-align: center;
+  padding: 20px;
+}
 
-footer{
+@media (max-width: 884px) and (max-height: 791px) {
+  .contactme {
+    align-items: center;
+  }
+  .contact {
     width: 100%;
-    text-align: center;
-    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactform {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }
