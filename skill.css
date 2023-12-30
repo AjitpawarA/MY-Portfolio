@@ -219,7 +219,8 @@ form input {
 }
 
 footer {
-  width: 80%;
+  margin-top: 30px;
+  width: 100%;
   text-align: center;
   padding: 20px;
 }
